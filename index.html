@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Open Point | Start Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <img src="images/logo.png" class="logo" alt="Company Logo" />
+    <h1>Open Point Management Solutions</h1>
+    <p>Select a service to get started:</p>
+
+    <form id="step1Form">
+      <input type="text" id="name" placeholder="Your Name" required />
+
+      <select id="category" required>
+        <option value="" disabled selected>Select Service</option>
+        <option value="ISO Certification">ISO Certification</option>
+        <option value="Audit Services">Audit Services</option>
+        <option value="Training & Workshops">Training & Workshops</option>
+      </select>
+
+      <button type="submit">Next</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
