@@ -1,8 +1,12 @@
 const subcategories = {
-  "ISO Certification": ["ISO 9001 – Quality Management", "ISO 14001 – Environmental Management", "ISO 27001 – Information Security"],
-  "Audit Services": ["Internal Audit", "Financial Audit", "Compliance Audit"],
-  "Training & Workshops": ["Employee Skill Training", "ISO Awareness Training", "Audit Training"]
-};
+  "Quality": ["ISO 9001","IATE 16949","AS900/AS9120/AS9110","ISO22163(IRSI)","ISO13485","TL9000","VDA6.3","Coustomer specific"],
+  "Sustainability": ["ISO 14001", "ISO 14064", "ISO 14020","ISO 14067","ISO 45001","ISO 50001","Fire Audits","Safety Audits","Electrical Saftey Audits","Sustainability Reporting"],
+  "Lab": ["ISO 17025"],
+  "Product Certification": ["CE","UL","S","Ecocert","ISI","Ecomark"],
+  "Social Compliances":["BSCI","SEDEX","CTPAT","Technical Audits","Buyer Specific Compliances(Walmart,Puma,Decathlon etc)"],
+  "Food Safety/GMP":["ISO 22000","FSSC 22000","BRC Food","BRC Packaging"],
+  "Software and ITES":["ISO 27001","ISO 20000","SOC", 
+"GDPR","HIPPA"] };
 
 const name = localStorage.getItem('clientName');
 const mainService = localStorage.getItem('mainService');
