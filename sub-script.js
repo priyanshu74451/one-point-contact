@@ -25,7 +25,7 @@ document.getElementById('step2Form').addEventListener('submit', function(e) {
 
   const subcategory = document.getElementById('subcategory').value;
   const message = document.getElementById('message').value.trim();
-  const phoneNumber = "917007293169"; // Replace with your WhatsApp number
+  const phoneNumber = "919315569233"; // Replace with your WhatsApp number
 
   const finalMsg = `Hello, I'm ${name}. I’m interested in:\nMain Service: ${mainService}\nSubcategory: ${subcategory}\n\nMessage: ${message}`;
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(finalMsg)}`;
